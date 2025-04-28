@@ -1,0 +1,7 @@
+displayName: Coraza WAF Plugin
+type: middleware
+import: github.com/cool0looc/corazaplugin
+summary: A Traefik middleware plugin that uses Coraza WAF to analyze traffic and dynamically monitor rules directory.
+testData:
+  rulesPath: "/etc/traefik/crs/rules"
+  defaultStatus: 403
